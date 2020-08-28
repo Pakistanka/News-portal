@@ -132,7 +132,6 @@
 			</div>
 			<div id="column-center">
 				<article class="main-news">
-					<div class="opacity"></div>
 					<div class="news-list">
 						<p class="news-span">/Политика</p>
 						<h3 class="news-title">В Крыму отреагировали<br>
@@ -144,7 +143,7 @@
 						</div>
 					</div>
 				</article>
-				<section>
+				<section class="news">
 					<figure class="small-news">
 						<img src="./img/Layer_3.png" alt="Навальный">
 						<figcaption>Алексей Навальный объявил акцию против пенсионной реформы 1 июля</figcaption>
@@ -170,7 +169,7 @@
 						</div>
 					</figure>
 				</section>
-				<section>
+				<section class="news">
 					<figure class="small-news">
 						<img src="./img/Layer_5.png" alt="Стриминг">
 						<figcaption>В России заработал
@@ -207,19 +206,20 @@
 		<div class="fixed-container">
 			<div id="special-news">
 				<article class="special-left">
-					<div class="big-news"></div>
-					<div class="opacity"></div>
-					<div class="news-list">
-						<a href="#" class="news-span">/Политика</a href="#">
-						<h3 class="news-title">Пекин обвинил Вашингтон<br> в развязывании торговой<br> войны</h2>
-						<div class="news-item-props">
-							<div class="news-date">19 июня 2018</div>
-							<time class="news-time">10:45</time>
+					<div class="big-news">
+						<div class="news-list">
+							<a href="#" class="news-span">/Политика</a href="#">
+							<h3 class="news-title">Пекин обвинил Вашингтон<br> в развязывании торговой<br> войны</h2>
+							<div class="news-item-props">
+								<div class="news-date">19 июня 2018</div>
+								<time class="news-time">10:45</time>
+							</div>
+							<p class="news-text">Министерство коммерции Китая заявило, что Пекин примет «качественные»<br> 
+								и «количественные» меры, если президент США Дональд Трамп введет<br>
+								дополнительные пошлины на китайские товары</p>
 						</div>
-						<p class="news-text">Министерство коммерции Китая заявило, что Пекин примет «качественные»<br> 
-							и «количественные» меры, если президент США Дональд Трамп введет<br>
-							дополнительные пошлины на китайские товары</p>
 					</div>
+
 				</article>
 				<div class="special-right">
 					<h2>Самые читаемые новости</h2>
@@ -276,8 +276,11 @@
 					</ul>
 				</div>
 				<div class="footer-central">
-					<img src="./img/internet.png" alt="">
-					<p class="fc-text">Новостное<br> агентство</p>
+					<div class="footer-central__wrap">
+						<img src="./img/internet.png" alt="">
+						<p class="fc-text">Новостное<br> агентство</p>
+					</div>
+
 					<ul class="fc-list">
 						<li>Об агенстве</li>
 						<li>Контакты</li>
